@@ -3,12 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: coder <coder@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rguilher <rguilher@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/27 21:25:15 by coder             #+#    #+#             */
-/*   Updated: 2022/09/27 21:45:15 by coder            ###   ########.fr       */
+/*   Created: 2022/09/28 22:01:21 by rguilher          #+#    #+#             */
+/*   Updated: 2022/09/28 22:44:30 by rguilher         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+**DESCRIPTION
+**	itoa () function is used to convert int data type to string data type in C language.
+**RETURN VALUE
+**	The string converted
+*/
 
 #include "libft.h"
 

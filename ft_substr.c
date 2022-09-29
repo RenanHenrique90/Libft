@@ -3,12 +3,26 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: coder <coder@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rguilher <rguilher@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/27 22:29:16 by coder             #+#    #+#             */
-/*   Updated: 2022/09/27 22:30:18 by coder            ###   ########.fr       */
+/*   Created: 2022/09/28 22:04:34 by rguilher          #+#    #+#             */
+/*   Updated: 2022/09/28 22:21:38 by rguilher         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/**
+**Parameters: 
+**  s: The string from which to create the substring.
+**  start: The start index of the substring in the
+**  string ’s’.
+**  len: The maximum length of the substring.
+**  
+**Description:
+**  Allocates (with malloc(3)) and returns a substring
+**  from the string ’s’.
+**  The substring begins at index ’start’ and is of
+**  maximum size ’len’
+**/
 
 #include "libft.h"
 

@@ -1,14 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   strlen.c                                           :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: coder <coder@student.42.fr>                +#+  +:+       +#+        */
+/*   By: rguilher <rguilher@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/10 00:19:23 by coder             #+#    #+#             */
-/*   Updated: 2022/09/10 18:19:06 by coder            ###   ########.fr       */
+/*   Created: 2022/09/28 22:03:12 by rguilher          #+#    #+#             */
+/*   Updated: 2022/09/28 22:27:50 by rguilher         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+**DESCRIPTION:
+**	The strlen() function calculates the length of the string pointed to by s, excluding the terminating null byte ('\0').
+**RETURN VALUE:
+**  The strlen() function returns the number of bytes in the string pointed to by s.
+*/
 
 #include "libft.h"
 

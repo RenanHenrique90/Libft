@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rguilher <rguilher@student.42sp.org.br>    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/09/28 22:05:00 by rguilher          #+#    #+#              #
+#    Updated: 2022/09/28 22:05:34 by rguilher         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME	= libft.a
 
 FLAGS 	= -Wall -Werror -Wextra
@@ -30,7 +42,9 @@ SRCS 	= ft_isalnum.c\
 		  ft_putendl_fd.c\
 		  ft_atoi.c\
 		  ft_itoa.c\
-		  ft_substr.c
+		  ft_substr.c\
+		  ft_strjoin.c\
+		  ft_strtrim.c
 				
 
 OBJS 		= $(SRCS:.c=.o)
