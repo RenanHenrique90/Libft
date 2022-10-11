@@ -6,7 +6,7 @@
 /*   By: rguilher <rguilher@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/28 22:01:31 by rguilher          #+#    #+#             */
-/*   Updated: 2022/09/28 22:01:32 by rguilher         ###   ########.fr       */
+/*   Updated: 2022/10/11 11:01:28 by rguilher         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ void	*ft_memchr(const void *s, int c, size_t n)
 			return ((void *) str);
 		str++;
 	}
-	return ((void *)0);
+	return (NULL);
 }
